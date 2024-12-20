@@ -24,7 +24,7 @@ public class CookiesDemo {
 		   .get("https://www.google.com/")		
 		
 		.then()
-		  .cookie("AEC", "AVYB7cr9dFiJ15g-YqgmZSOtSO_dBw0bU9oMC5qryCvAjMBv7lwNmH5txM4")
+		  .cookie("AEC", "AVYB7cp6DLDtAjTLyT8ISiqc7SxmZF4sSUnUY7bIK_UBxb7LFtngHVRvbSM")
 		  .log().all();
 
 		

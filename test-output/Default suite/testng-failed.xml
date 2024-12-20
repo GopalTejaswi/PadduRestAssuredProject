@@ -3,36 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.example.restassured.day7.Authentications">
+      <class name="com.example.restassured.API.APIChaining">
         <methods>
-          <include name="testBasicAuthentication"/>
+          <include name="findEmployeeByID"/>
         </methods>
-      </class> <!-- com.example.restassured.day7.Authentications -->
-      <class name="com.example.restassured.day3.CookiesDemo">
-        <methods>
-          <include name="testCookies"/>
-          <include name="getCookiiesInfo"/>
-        </methods>
-      </class> <!-- com.example.restassured.day3.CookiesDemo -->
-      <class name="com.example.restassured.day1.HttpRequests">
-        <methods>
-          <include name="updateUser"/>
-          <include name="deleteUser"/>
-          <include name="getUser"/>
-          <include name="createUser"/>
-        </methods>
-      </class> <!-- com.example.restassured.day1.HttpRequests -->
-      <class name="com.example.restassured.day2.DiffWaysToCreatePostRequestBody">
-        <methods>
-          <include name="testPostusingHashMap"/>
-          <include name="postRequestUsingPOJOClass"/>
-        </methods>
-      </class> <!-- com.example.restassured.day2.DiffWaysToCreatePostRequestBody -->
-      <class name="com.example.restassured.day4.ParsingJsonResponseData">
-        <methods>
-          <include name="testJsonResponse"/>
-        </methods>
-      </class> <!-- com.example.restassured.day4.ParsingJsonResponseData -->
+      </class> <!-- com.example.restassured.API.APIChaining -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

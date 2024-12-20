@@ -60,7 +60,7 @@ public class HttpRequests {
 		
 	}
 	
-	@Test(priority = 3,dependsOnMethods = {"createUser"})
+	@Test//(priority = 3,dependsOnMethods = {"createUser"})
 	void updateUser() {
 		
 		HashMap data = new HashMap();		
@@ -95,7 +95,6 @@ public class HttpRequests {
 		   .log().all();
 		
 	}
-	
 	 
 	
 
